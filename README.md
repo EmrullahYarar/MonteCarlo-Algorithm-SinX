@@ -9,9 +9,9 @@ Compilation
 
 Compile the program with GCC:
 
-gcc main.c -o monte_carlo -lm
+    gcc main.c -o monte_carlo -lm
 
-    Replace main.c with the actual source file name if it is different.
+Replace main.c with the actual source file name if it is different.
 
 The -lm option links the C math library, which is required for functions such as sin().
 Usage
@@ -19,11 +19,11 @@ Usage
 Run the compiled program:
 Linux and macOS
 
-./monte_carlo
+    ./monte_carlo
 
 Windows
 
-.\monte_carlo.exe
+    .\monte_carlo.exe
 
 The generated input, output, and sine values can be viewed in the text file created by the program.
 Purpose
